@@ -6,8 +6,8 @@
 #define SS_PIN1         8
 #define SS_PIN2         10
 
-MFRC522 mfrc522_1(SS_PIN1, RST_PIN);
-MFRC522 mfrc522_2(SS_PIN2, RST_PIN);
+MFRC522 mfrc522_1(SS_PIN1, RST_PIN); // RFID-Reader 1
+MFRC522 mfrc522_2(SS_PIN2, RST_PIN); // RFID-Reader 2
 
 unsigned long timestamp1 = 0;
 unsigned long timestamp2 = 0;
